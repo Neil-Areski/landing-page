@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(225, 248, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(21, 27, 76);
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(123, 198, 255);
+    font-size: larger;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -20px;
+    margin-top: -30px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    padding-top: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+}
+
+.listedespages {
+    font-size: small;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: rgb(123, 198, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 64, 0);
+    text-decoration: none;
+
+}
+
+
+.description {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(206, 242, 254);
+    text-align: left;
+    border-radius: 40px;
+}
+
+
+.wacom22 {
+    height: 600px;
+    width: 570px;
+    border-radius: 40px;
+    margin: 10px;
+    margin-bottom: 50px;
+
+    @media screen and (max-width: 800px) { 
+        .wacom22 {
+            width: 100%
+        }
+    }
+
+}
+
+.compawacom {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+.compagaomon {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.gaomon {
+    height: 600px;
+    width: 570px;
+    border-radius: 40px;
+    margin: 10px;
+    margin-bottom: 50px;
+
+    @media screen and (max-width: 800px) { 
+        .gaomon {
+            width: 100%
+        }
+    }
+
+}
+
+.xppen {
+    height: 600px;
+    width: 570px;
+    border-radius: 40px;
+    margin: 10px;
+    margin-bottom: 50px;
+
+    @media screen and (max-width: 800px) { 
+        .xppen {
+            width: 100%
+        }
+    }
+
+}
+
+
+.footer {
+    margin: 60px;
+    border-radius: 40px;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding: 50px;
+    display: flex;
+    text-align: center;
+    background-color: rgb(206, 242, 254);
+}
+
+.lien {
+    text-align: center;
+    padding-left: 550px;
+}
